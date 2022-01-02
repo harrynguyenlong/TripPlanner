@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TripPlannerUITests.xctest' tests='6' failures='0'>
+  <testsuite name='TripPlannerUITests.TripPlannerUITests' tests='2' failures='0'>
+    <testcase classname='TripPlannerUITests.TripPlannerUITests' name='testExample' time='2.288'/>
+    <testcase classname='TripPlannerUITests.TripPlannerUITests' name='testLaunchPerformance' time='88.915'/>
+  </testsuite>
+  <testsuite name='TripPlannerUITests.TripPlannerUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='TripPlannerUITests.TripPlannerUITestsLaunchTests' name='testLaunch' time='5.574'/>
+    <testcase classname='TripPlannerUITests.TripPlannerUITestsLaunchTests' name='testLaunch' time='7.399'/>
+    <testcase classname='TripPlannerUITests.TripPlannerUITestsLaunchTests' name='testLaunch' time='5.375'/>
+    <testcase classname='TripPlannerUITests.TripPlannerUITestsLaunchTests' name='testLaunch' time='7.174'/>
+  </testsuite>
+</testsuites>
