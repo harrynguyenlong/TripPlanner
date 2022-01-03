@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode13.1
+cache:
+  - bundler
+before_install:
+  - bundle install
+script:
+  - chmod a+x ./scripts/run.sh
+  - ./scripts/run

@@ -16,6 +16,9 @@
 		414524B4277E60FB009FB40B /* TripPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414524B3277E60FB009FB40B /* TripPlannerTests.swift */; };
 		414524BE277E60FB009FB40B /* TripPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414524BD277E60FB009FB40B /* TripPlannerUITests.swift */; };
 		414524C0277E60FB009FB40B /* TripPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414524BF277E60FB009FB40B /* TripPlannerUITestsLaunchTests.swift */; };
+		41803B03278284320040D366 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 41803B02278284320040D366 /* run.sh */; };
+		41803B04278284320040D366 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 41803B02278284320040D366 /* run.sh */; };
+		41803B05278284320040D366 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 41803B02278284320040D366 /* run.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		414524B9277E60FB009FB40B /* TripPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414524BD277E60FB009FB40B /* TripPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITests.swift; sourceTree = "<group>"; };
 		414524BF277E60FB009FB40B /* TripPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41803B02278284320040D366 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		41452490277E60F9009FB40B = {
 			isa = PBXGroup;
 			children = (
+				41803B01278284100040D366 /* scripts */,
 				4145249B277E60F9009FB40B /* TripPlanner */,
 				414524B2277E60FB009FB40B /* TripPlannerTests */,
 				414524BC277E60FB009FB40B /* TripPlannerUITests */,
@@ -125,6 +130,14 @@
 				414524BF277E60FB009FB40B /* TripPlannerUITestsLaunchTests.swift */,
 			);
 			path = TripPlannerUITests;
+			sourceTree = "<group>";
+		};
+		41803B01278284100040D366 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				41803B02278284320040D366 /* run.sh */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41803B03278284320040D366 /* run.sh in Resources */,
 				414524A9277E60FA009FB40B /* LaunchScreen.storyboard in Resources */,
 				414524A6277E60FA009FB40B /* Assets.xcassets in Resources */,
 				414524A4277E60F9009FB40B /* Main.storyboard in Resources */,
@@ -241,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41803B04278284320040D366 /* run.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41803B05278284320040D366 /* run.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
