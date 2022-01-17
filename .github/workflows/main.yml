@@ -50,6 +50,11 @@ jobs:
       - name: Run tests 
         run: |
           bundle exec fastlane unit_tests
+      - name: Upload to Testflight
+        env:
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+        run: |
+          bundle exec fastlane beta
       - name: Clean up keychain and provisioning profile
         if: ${{ always() }}
         run: |
