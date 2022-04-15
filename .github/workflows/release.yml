@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Pull request
+name: Release
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the develop branch
-  pull_request:
-    branches: [ develop ]
+  # Triggers the workflow on push to main branch
+  push:
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -50,6 +50,13 @@ jobs:
       - name: Run tests
         run: |
           bundle exec fastlane unit_tests
+          bundle exec fastlane ui_tests
+      - name: Upload to Testflight
+        env:
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+        run: |
+          bundle exec fastlane beta
       - name: Clean up keychain and provisioning profile
         if: ${{ always() }}
         run: |
