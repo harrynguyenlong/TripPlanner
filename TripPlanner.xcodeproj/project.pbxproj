@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412DB9512809B6DC0040CA52 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB9502809B6DC0040CA52 /* Models.swift */; };
+		412DB9542809BE9C0040CA52 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB9532809BE9C0040CA52 /* Utils.swift */; };
+		412DB9572809BF180040CA52 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 412DB9562809BF180040CA52 /* SwiftDate */; };
+		412DB95A280C02820040CA52 /* TripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB959280C02820040CA52 /* TripService.swift */; };
+		412DB95D280C059C0040CA52 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB95C280C059C0040CA52 /* MainViewViewModel.swift */; };
+		412DB961280C063A0040CA52 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 412DB960280C063A0040CA52 /* Swinject */; };
+		412DB963280C065F0040CA52 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB962280C065F0040CA52 /* DependencyManager.swift */; };
+		412DB965280C07B40040CA52 /* InMemoryCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB964280C07B40040CA52 /* InMemoryCacheService.swift */; };
+		412DB967280C08C10040CA52 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB966280C08C10040CA52 /* Repositories.swift */; };
+		412DB96A280C0BDF0040CA52 /* GetUpcomingTripsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB969280C0BDF0040CA52 /* GetUpcomingTripsUsecase.swift */; };
+		412DB96C280C22B10040CA52 /* GetRecentTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB96B280C22B10040CA52 /* GetRecentTrips.swift */; };
+		412DB96E280C2CCB0040CA52 /* GetExploreTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB96D280C2CCB0040CA52 /* GetExploreTrips.swift */; };
 		4145249D277E60F9009FB40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145249C277E60F9009FB40B /* AppDelegate.swift */; };
 		4145249F277E60F9009FB40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145249E277E60F9009FB40B /* SceneDelegate.swift */; };
-		414524A1277E60F9009FB40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414524A0277E60F9009FB40B /* ViewController.swift */; };
+		414524A1277E60F9009FB40B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414524A0277E60F9009FB40B /* MainView.swift */; };
 		414524A4277E60F9009FB40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414524A2277E60F9009FB40B /* Main.storyboard */; };
 		414524A6277E60FA009FB40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414524A5277E60FA009FB40B /* Assets.xcassets */; };
 		414524A9277E60FA009FB40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414524A7277E60FA009FB40B /* LaunchScreen.storyboard */; };
@@ -39,10 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		412DB9502809B6DC0040CA52 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		412DB9532809BE9C0040CA52 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		412DB959280C02820040CA52 /* TripService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripService.swift; sourceTree = "<group>"; };
+		412DB95C280C059C0040CA52 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		412DB962280C065F0040CA52 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		412DB964280C07B40040CA52 /* InMemoryCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCacheService.swift; sourceTree = "<group>"; };
+		412DB966280C08C10040CA52 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		412DB969280C0BDF0040CA52 /* GetUpcomingTripsUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpcomingTripsUsecase.swift; sourceTree = "<group>"; };
+		412DB96B280C22B10040CA52 /* GetRecentTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecentTrips.swift; sourceTree = "<group>"; };
+		412DB96D280C2CCB0040CA52 /* GetExploreTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetExploreTrips.swift; sourceTree = "<group>"; };
 		41452499277E60F9009FB40B /* TripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4145249C277E60F9009FB40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4145249E277E60F9009FB40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		414524A0277E60F9009FB40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		414524A0277E60F9009FB40B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		414524A3277E60F9009FB40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		414524A5277E60FA009FB40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414524A8277E60FA009FB40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412DB9572809BF180040CA52 /* SwiftDate in Frameworks */,
+				412DB961280C063A0040CA52 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412DB94C2809AF370040CA52 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				412DB958280C026D0040CA52 /* Services */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		412DB94D2809AF430040CA52 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				412DB968280C0BCE0040CA52 /* Usecases */,
+				412DB94F2809B6D10040CA52 /* Models */,
+				412DB966280C08C10040CA52 /* Repositories.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		412DB94E2809AF4A0040CA52 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				412DB95B280C058A0040CA52 /* MainView */,
+			);
+			name = UIs;
+			sourceTree = "<group>";
+		};
+		412DB94F2809B6D10040CA52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				412DB9502809B6DC0040CA52 /* Models.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		412DB9522809BE940040CA52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				412DB9532809BE9C0040CA52 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		412DB958280C026D0040CA52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				412DB959280C02820040CA52 /* TripService.swift */,
+				412DB964280C07B40040CA52 /* InMemoryCacheService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		412DB95B280C058A0040CA52 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				414524A0277E60F9009FB40B /* MainView.swift */,
+				412DB95C280C059C0040CA52 /* MainViewViewModel.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		412DB95E280C061F0040CA52 /* DependencyManager */ = {
+			isa = PBXGroup;
+			children = (
+				412DB962280C065F0040CA52 /* DependencyManager.swift */,
+			);
+			name = DependencyManager;
+			sourceTree = "<group>";
+		};
+		412DB968280C0BCE0040CA52 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				412DB969280C0BDF0040CA52 /* GetUpcomingTripsUsecase.swift */,
+				412DB96B280C22B10040CA52 /* GetRecentTrips.swift */,
+				412DB96D280C2CCB0040CA52 /* GetExploreTrips.swift */,
+			);
+			name = Usecases;
+			sourceTree = "<group>";
+		};
 		41452490277E60F9009FB40B = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +206,13 @@
 		4145249B277E60F9009FB40B /* TripPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				412DB95E280C061F0040CA52 /* DependencyManager */,
+				412DB9522809BE940040CA52 /* Utils */,
+				412DB94E2809AF4A0040CA52 /* UIs */,
+				412DB94D2809AF430040CA52 /* Domain */,
+				412DB94C2809AF370040CA52 /* Core */,
 				4145249C277E60F9009FB40B /* AppDelegate.swift */,
 				4145249E277E60F9009FB40B /* SceneDelegate.swift */,
-				414524A0277E60F9009FB40B /* ViewController.swift */,
 				414524A2277E60F9009FB40B /* Main.storyboard */,
 				414524A5277E60FA009FB40B /* Assets.xcassets */,
 				414524A7277E60FA009FB40B /* LaunchScreen.storyboard */,
@@ -156,6 +262,10 @@
 			dependencies = (
 			);
 			name = TripPlanner;
+			packageProductDependencies = (
+				412DB9562809BF180040CA52 /* SwiftDate */,
+				412DB960280C063A0040CA52 /* Swinject */,
+			);
 			productName = TripPlanner;
 			productReference = 41452499277E60F9009FB40B /* TripPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -228,6 +338,10 @@
 				Base,
 			);
 			mainGroup = 41452490277E60F9009FB40B;
+			packageReferences = (
+				412DB9552809BF180040CA52 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				412DB95F280C063A0040CA52 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 4145249A277E60F9009FB40B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,9 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414524A1277E60F9009FB40B /* ViewController.swift in Sources */,
+				412DB9542809BE9C0040CA52 /* Utils.swift in Sources */,
+				412DB967280C08C10040CA52 /* Repositories.swift in Sources */,
+				412DB96E280C2CCB0040CA52 /* GetExploreTrips.swift in Sources */,
+				412DB96C280C22B10040CA52 /* GetRecentTrips.swift in Sources */,
+				414524A1277E60F9009FB40B /* MainView.swift in Sources */,
+				412DB965280C07B40040CA52 /* InMemoryCacheService.swift in Sources */,
+				412DB95D280C059C0040CA52 /* MainViewViewModel.swift in Sources */,
 				4145249D277E60F9009FB40B /* AppDelegate.swift in Sources */,
+				412DB963280C065F0040CA52 /* DependencyManager.swift in Sources */,
+				412DB96A280C0BDF0040CA52 /* GetUpcomingTripsUsecase.swift in Sources */,
 				4145249F277E60F9009FB40B /* SceneDelegate.swift in Sources */,
+				412DB95A280C02820040CA52 /* TripService.swift in Sources */,
+				412DB9512809B6DC0040CA52 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +585,6 @@
 				INFOPLIST_FILE = TripPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -494,7 +617,6 @@
 				INFOPLIST_FILE = TripPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -636,6 +758,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		412DB9552809BF180040CA52 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		412DB95F280C063A0040CA52 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		412DB9562809BF180040CA52 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 412DB9552809BF180040CA52 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		412DB960280C063A0040CA52 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 412DB95F280C063A0040CA52 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41452491277E60F9009FB40B /* Project object */;
 }
